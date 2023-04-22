@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.LoginWindowController">
+   <children>
+      <AnchorPane prefHeight="603.0" prefWidth="1080.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="147.0" fitWidth="134.0" layoutX="518.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../resources/assests/loggif.gif" />
+               </image>
+            </ImageView>
+            <Label layoutX="629.0" layoutY="63.0" prefHeight="34.0" prefWidth="163.0" text="D24 Hostel  " textFill="#166af2">
+               <font>
+                  <Font name="Verdana Pro Cond Bold" size="27.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtfldUsername" layoutX="610.0" layoutY="368.0" onAction="#ActionTxtUsername" prefHeight="31.0" prefWidth="292.0" promptText="Username" style="-fx-background-color: #c7ecee;" />
+            <Button layoutX="610.0" layoutY="516.0" mnemonicParsing="false" onAction="#loginButtonOnAction" opacity="0.72" prefHeight="31.0" prefWidth="292.0" style="-fx-background-radius: 45;" text="Log in" textFill="#0b0be0">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Label layoutX="744.0" layoutY="227.0" prefHeight="51.0" prefWidth="134.0" text="Login" textFill="#869ad0">
+               <font>
+                  <Font name="Imprint MT Shadow" size="35.0" />
+               </font>
+            </Label>
+            <Line endX="49.0" layoutX="714.0" layoutY="97.0" startX="-84.0" />
+            <ImageView fitHeight="458.0" fitWidth="461.0" layoutX="23.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../resources/assests/3809909-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="109.0" layoutX="664.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../resources/assests/adv3p-kd46l-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <CheckBox fx:id="radioBtn" layoutX="614.0" layoutY="473.0" mnemonicParsing="false" onAction="#actionRadioBtnShowPswrd" text="show password" />
+            <TextField fx:id="pswrdhint" layoutX="610.0" layoutY="425.0" onMouseClicked="#ActionTxthin" prefHeight="31.0" prefWidth="292.0" promptText="Password" style="-fx-background-color: #c7ecee;" />
+            <PasswordField fx:id="pswrdfldPassword" layoutX="610.0" layoutY="425.0" prefHeight="31.0" prefWidth="292.0" promptText="Password" style="-fx-background-color: #c7ecee;" visible="false" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

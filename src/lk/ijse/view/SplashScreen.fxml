@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="295.0" prefWidth="494.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.SplashScreenController">
+   <children>
+      <ImageView fitHeight="190.0" fitWidth="362.0" layoutX="131.0" layoutY="1.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../../../resources/assests/19197690-removebg-preview2.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="rctContainer" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="8.0" layoutX="4.0" layoutY="283.0" stroke="BLACK" strokeType="INSIDE" width="487.0" />
+      <Label layoutX="190.0" layoutY="171.0" text="D24 V1.0.0" textFill="#e42c2c">
+         <font>
+            <Font name="DejaVu Sans Mono Bold" size="20.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="rctLoading" arcHeight="5.0" arcWidth="5.0" fill="#1ffff9" height="8.0" layoutX="4.0" layoutY="283.0" stroke="BLACK" strokeType="INSIDE" width="26.0" />
+      <Label fx:id="lblLoading" layoutX="190.0" layoutY="201.0" prefHeight="21.0" prefWidth="283.0" text="Welcome to Hostel Management System..." AnchorPane.leftAnchor="190.0" AnchorPane.rightAnchor="21.0" />
+      <ImageView fitHeight="65.0" fitWidth="81.0" layoutX="417.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/assests/gdse_logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="274.0" fitWidth="162.0" layoutY="1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../resources/assests/hostel.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="190.0" fitWidth="362.0" layoutX="141.0" layoutY="11.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../../../resources/assests/19197690-removebg-preview2.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
